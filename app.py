@@ -33,6 +33,8 @@ st.write("Enter house details below:")
 
 area = st.number_input("Area (sq ft)", min_value=0)
 
+bedrooms = st.number_input("Bedrooms", min_value=1, max_value=10)
+
 bathrooms = st.number_input("Bathrooms", min_value=1, max_value=10)
 
 stories = st.number_input("Stories", min_value=1, max_value=10)
