@@ -9,14 +9,14 @@ import joblib
 # LOAD MODEL
 # ============================================
 
-with open("/content/linear_regression_model.pkl", "rb") as f:
+with open("housing_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # ============================================
 # LOAD PREPROCESSOR / SCALER
 # ============================================
 
-with open("/content/preprocessor_scaler.pkl", "rb") as f:
+with open("scaler.pkl", "rb") as f:
     preprocessor = pickle.load(f)
 
 # ============================================
