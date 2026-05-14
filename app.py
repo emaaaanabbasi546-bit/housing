@@ -64,7 +64,7 @@ furnishingstatus = st.selectbox(
 
 input_data = pd.DataFrame({
     'area': [area],
-    'bedrooms': [bedroom],
+    'bedrooms': [bedrooms],
     'bathrooms': [bathrooms],
     'stories': [stories],
     'parking': [parking],
